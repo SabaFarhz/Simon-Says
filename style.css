@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-image: url(download\ \(1\).jpg);
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 25%;
+    margin: 2.5rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.red{
+    background: rgb(214, 76, 76);
+}
+.yellow{
+    background: rgb(234, 234, 120);
+}
+.blue{
+    background: rgb(110, 110, 217);
+}
+.green{
+    background: rgb(124, 215, 124);
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: green;
+}
+#flash-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    opacity: 0; /* Initially invisible */
+    pointer-events: none; /* Prevent blocking interactions */
+    transition: opacity 0.2s ease; /* Smooth fade effect */
+}
